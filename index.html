@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+
+  <body>
+    <div class="popup_overly"></div>
+    <div class="links_box">
+      <ul class="main_links">
+        <li class="clickable">
+          <a id="main" href="#">
+            Features <img class="arrow" src="./images/icon-arrow-down.svg"
+          /></a>
+          <ul class="active_links">
+            <li>
+              <img src="./images/icon-todo.svg" />
+              <a href="#">Todo List</a>
+            </li>
+            <li>
+              <img src="./images/icon-calendar.svg" />
+              <a href="#">Calender</a>
+            </li>
+            <li>
+              <img src="./images/icon-reminders.svg" />
+              <a href="#">Reminders</a>
+            </li>
+            <li>
+              <img src="./images/icon-planning.svg" />
+              <a href="#">Planning</a>
+            </li>
+          </ul>
+        </li>
+        <li class="clickable">
+          <a id="main" href="#">
+            Company <img class="arrow" src="./images/icon-arrow-down.svg"
+          /></a>
+          <ul class="active_links">
+            <li><a href="#">History</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <div class="connect">
+        <button>Login</button> <button>Register</button>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="Logo" />
+        </div>
+        <nav>
+          <div class="toggle_menu"></div>
+          <ul class="main_links">
+            <li class="clickable">
+              <a id="main" href="#"> Features</a>
+              <ul class="active_links">
+                <li>
+                  <img src="./images/icon-todo.svg" />
+                  <a href="#">Todo List</a>
+                </li>
+                <li>
+                  <img src="./images/icon-calendar.svg" />
+                  <a href="#">Calender</a>
+                </li>
+                <li>
+                  <img src="./images/icon-reminders.svg" />
+                  <a href="#">Reminders</a>
+                </li>
+                <li>
+                  <img src="./images/icon-planning.svg" />
+                  <a href="#">Planning</a>
+                </li>
+              </ul>
+              <img class="arrow" src="./images/icon-arrow-down.svg" />
+            </li>
+            <li class="clickable">
+              <a id="main" href="#"> Company </a>
+              <ul class="active_links">
+                <li><a href="#">History</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+              <img class="arrow" src="./images/icon-arrow-down.svg" />
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <div class="connect">
+          <button>Login</button> <button>Register</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="container">
+        <div class="text">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <span><a href="#">Learn more</a></span>
+          <div class="sponser">
+            <img src="./images/client-databiz.svg" />
+            <img src="./images/client-audiophile.svg" />
+            <img src="./images/client-meet.svg" />
+            <img src="./images/client-maker.svg" />
+          </div>
+        </div>
+        <div class="image">
+          <img id="desktop" src="./images/image-hero-desktop.png" />
+          <img id="mobile" src="./images/image-hero-mobile.png" />
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
